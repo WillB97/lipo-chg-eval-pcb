@@ -6991,6 +6991,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "43695760-45ba-460b-be30-2e01529222dc")
 		)
@@ -7820,23 +7829,32 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
-			(uuid "43695760-45ba-460b-be30-2e01529222dc")
+			(uuid "43695760-45ba-460b-be30-2e01529222dd")
 		)
 		(pin "3"
-			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80c")
+			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80d")
 		)
 		(pin "1"
-			(uuid "89219bd7-8c74-4306-82a0-7780c3e329ef")
+			(uuid "89219bd7-8c74-4306-82a0-7780c3e329f0")
 		)
 		(pin "5"
-			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6b")
+			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6c")
 		)
 		(pin "2"
-			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aa7")
+			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aa8")
 		)
 		(pin "4"
-			(uuid "62081f29-dc69-4f4b-8f74-96235c694849")
+			(uuid "62081f29-dc69-4f4b-8f74-96235c69484a")
 		)
 		(instances
 			(project ""
@@ -8291,23 +8309,32 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
-			(uuid "43695760-45ba-460b-be30-2e01529222dc")
+			(uuid "43695760-45ba-460b-be30-2e01529222de")
 		)
 		(pin "3"
-			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80c")
+			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80e")
 		)
 		(pin "1"
-			(uuid "89219bd7-8c74-4306-82a0-7780c3e329ef")
+			(uuid "89219bd7-8c74-4306-82a0-7780c3e329f1")
 		)
 		(pin "5"
-			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6b")
+			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6d")
 		)
 		(pin "2"
-			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aa7")
+			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aa9")
 		)
 		(pin "4"
-			(uuid "62081f29-dc69-4f4b-8f74-96235c694849")
+			(uuid "62081f29-dc69-4f4b-8f74-96235c69484b")
 		)
 		(instances
 			(project ""
@@ -9581,6 +9608,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "07e811e4-ab47-497e-b6b4-3ccb1ba4ebcb")
 		)
@@ -10807,7 +10843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 162.56 116.84 90)
 			(effects
 				(font
@@ -10924,23 +10960,32 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
-			(uuid "43695760-45ba-460b-be30-2e01529222dc")
+			(uuid "43695760-45ba-460b-be30-2e01529222df")
 		)
 		(pin "3"
-			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80c")
+			(uuid "960c1668-b4d0-422e-91f8-ba5cf79fe80f")
 		)
 		(pin "1"
-			(uuid "89219bd7-8c74-4306-82a0-7780c3e329ef")
+			(uuid "89219bd7-8c74-4306-82a0-7780c3e329f2")
 		)
 		(pin "5"
-			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6b")
+			(uuid "9e52e410-e283-4aac-8a16-37a0843e1e6e")
 		)
 		(pin "2"
-			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aa7")
+			(uuid "4e211d88-9720-4ed8-a022-e7ddc71f1aaa")
 		)
 		(pin "4"
-			(uuid "62081f29-dc69-4f4b-8f74-96235c694849")
+			(uuid "62081f29-dc69-4f4b-8f74-96235c69484c")
 		)
 		(instances
 			(project ""
@@ -11008,6 +11053,15 @@
 			)
 		)
 		(property "LCSC" "C507118"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 229.87 78.74 0)
 			(effects
 				(font
@@ -11115,7 +11169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 162.56 111.76 90)
 			(effects
 				(font
