@@ -27307,7 +27307,7 @@
 		(layer "B.Cu")
 		(uuid "bc8a4221-3471-4c03-a542-b950d5cf7017")
 		(at 168.119922 69.095066 180)
-		(property "Reference" "REF**"
+		(property "Reference" "LBL1"
 			(at 2.089922 5.59 0)
 			(unlocked yes)
 			(layer "B.SilkS")
