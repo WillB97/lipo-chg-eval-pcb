@@ -34,7 +34,7 @@ jobs:
       uses: actions/configure-pages@v5
 
     - name: Run KiBot
-      uses: INTI-CMNB/KiBot@v2_k9
+      uses: INTI-CMNB/KiBot@v2_k9_1_8_3
       with:
         quickstart: YES
 
