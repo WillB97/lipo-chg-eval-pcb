@@ -2,4 +2,4 @@
 
 ![](https://willb97.github.io/lipo-chg-eval-pcb/3D/charger-compare-3D_top.png)
 
-[GitHub Pages site](https://willb97.github.io/lipo-chg-eval-pcb/).
+[GitHub Pages site](https://willb97.github.io/lipo-chg-eval-pcb/Browse/charger-compare-navigate.html).
