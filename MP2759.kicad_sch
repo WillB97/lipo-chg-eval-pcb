@@ -4220,7 +4220,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 90.17 166.3699 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe459808-ad00-463c-9b7d-786c16865cde")
 		(property "Reference" "R21"
-			(at 74.93 163.83 0)
+			(at 74.93 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,8 +6296,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 74.93 166.37 0)
+		(property "Value" "16k"
+			(at 74.93 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
