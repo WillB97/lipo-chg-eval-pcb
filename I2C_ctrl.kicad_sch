@@ -5,7 +5,9 @@
 	(uuid "9898fa2d-aec8-4504-a3ea-e6660cfc95ef")
 	(paper "A4")
 	(title_block
+		(title "Control MCU with Isolated USB-Serial Interface")
 		(rev "1.0")
+		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:NC7SB3157P6X"

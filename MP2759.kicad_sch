@@ -5,7 +5,10 @@
 	(uuid "b57b69b6-2481-42b1-a1c3-1eb6d4df454f")
 	(paper "A4")
 	(title_block
+		(title "MP2759 Buck Charger")
 		(rev "1.0")
+		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
+		(comment 2 "15-32V Input 3A max, reduced charge current below 18V")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2153,13 +2156,14 @@
 		)
 		(uuid "547c4122-30e2-4189-847f-7c60a6866271")
 	)
-	(text "Use 103AT-2 thermistor"
+	(text "Use 103AT-2 thermistor\nJST-PH 2.0mm 2-pin connector"
 		(exclude_from_sim no)
-		(at 208.026 116.078 0)
+		(at 195.834 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9cb5e170-8c87-48ff-9a38-854983147e66")
 	)
@@ -3865,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 193.04 109.22 0)
 			(effects
 				(font

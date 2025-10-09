@@ -5,7 +5,10 @@
 	(uuid "ffb4eeb9-6a04-4ebe-acf1-80fd54bc52c5")
 	(paper "A4")
 	(title_block
+		(title "BQ25792 Buck-Boost Charger")
 		(rev "1.0")
+		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
+		(comment 2 "5-22V input 5A max, 1A max without MCU control")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1670,6 +1673,17 @@
 			(justify left bottom)
 		)
 		(uuid "63412fa7-8894-4ba6-86ff-8cf3aec2a6e8")
+	)
+	(text "Use 103AT-2 thermistor\nJST-PH 2.0mm 2-pin connector"
+		(exclude_from_sim no)
+		(at 165.608 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a197c0a-8143-4f50-88af-1fa3c46c2740")
 	)
 	(text "Technically should be 30.31k"
 		(exclude_from_sim no)
@@ -4189,7 +4203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 162.56 99.06 0)
 			(effects
 				(font

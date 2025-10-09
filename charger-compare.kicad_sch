@@ -5,8 +5,9 @@
 	(uuid "1ee3bb19-9ed0-41e9-a9ff-1e5d7db780de")
 	(paper "A4")
 	(title_block
-		(title "BQ25792 Test Board")
+		(title "3S LiPo Charger Test Board")
 		(rev "1.0")
+		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
@@ -2742,18 +2743,6 @@
 			)
 		)
 		(uuid "0beea06b-a31b-4fcf-83ad-e9ae1bc80b7d")
-	)
-	(text "TODO LED resistors"
-		(exclude_from_sim no)
-		(at 209.296 172.466 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-			)
-		)
-		(uuid "0fd607e7-b4b5-4e37-b37d-eb209187e6ef")
 	)
 	(text "Reverse Polarity Protection"
 		(exclude_from_sim no)
