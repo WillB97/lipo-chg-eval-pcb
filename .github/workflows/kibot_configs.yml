@@ -1,0 +1,36 @@
+# Test designed to run the --quick-start using a fresh docker image:
+# ghcr.io/inti-cmnb/kicad_auto_test:ki9
+# This name is available before the deploy which creates:
+# ghcr.io/inti-cmnb/kicad9_auto_test:latest
+name: "Generate KiBot configs"
+
+on:
+  workflow_dispatch
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  quick:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad_auto_test:ki9
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # So we can run a diff between last 2 changes
+        fetch-depth: '0'
+
+    - name: Quick Start
+      run: |
+        kibot --quick-start --dry
+
+    - name: Example config
+      run: |
+        kibot -b charger-compare.kicad_pcb --example
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: Configs
+        path: |
+          kibot_generated.kibot.yaml
+          example_template.kibot.yaml
