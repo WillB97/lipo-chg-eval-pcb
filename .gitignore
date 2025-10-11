@@ -1,5 +1,6 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# From https://gitlab.com/gitlab-org/gitlab/-/blob/master/vendor/gitignore/KiCad.gitignore
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -14,12 +15,9 @@
 ~*.lck
 _autosave-*
 *.tmp
+*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
-fp-lib-table
-\#auto_saved_files\#
-sym-lib-table
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -36,4 +34,5 @@ sym-lib-table
 /bom/
 /production/
 /case/
+fp-info-cache
 
