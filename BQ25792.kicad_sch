@@ -1652,6 +1652,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "UVLO is fixed @ 3.6V"
+		(exclude_from_sim no)
+		(at 42.164 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "170cace0-2eec-4cec-8e95-3d15d0730f4c")
+	)
 	(text "2.25A Initial limit,\noverrideable from I2C"
 		(exclude_from_sim no)
 		(at 180.34 53.34 0)
@@ -1706,6 +1716,16 @@
 			(justify left bottom)
 		)
 		(uuid "c4ee8754-2b81-4cd0-a7be-e12c9081abfa")
+	)
+	(text "Charge current defaults to 1A at startup.\nOver I2C this can be raised to 5A."
+		(exclude_from_sim no)
+		(at 82.042 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c56032da-ca00-4e69-a447-02b974a440be")
 	)
 	(text "Technically should be 5.24k"
 		(exclude_from_sim no)

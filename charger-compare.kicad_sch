@@ -2778,7 +2778,7 @@
 		)
 		(uuid "92ff9928-13c0-459f-8d66-53c740c645ce")
 	)
-	(text "20V Setting"
+	(text "20V Setting\nCFG2&3 have an internal pull-up"
 		(exclude_from_sim no)
 		(at 75.946 188.468 0)
 		(effects
@@ -2791,7 +2791,7 @@
 	)
 	(text "Reduced current below 18V"
 		(exclude_from_sim no)
-		(at 145.796 88.9 0)
+		(at 151.638 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2801,7 +2801,7 @@
 	)
 	(text "15-32V 3A Buck Charger"
 		(exclude_from_sim no)
-		(at 145.542 85.852 0)
+		(at 151.384 85.852 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2860,12 +2860,6 @@
 		(uuid "5fa8a3e4-d531-4901-bbe9-68e762ade9c5")
 	)
 	(junction
-		(at 118.11 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "672a1576-03fc-4160-9948-1c9e5caeac61")
-	)
-	(junction
 		(at 226.06 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2888,6 +2882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b1aa30-cba6-444c-bdc9-de9d70b86ba6")
+	)
+	(junction
+		(at 118.11 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c2807ec-96c6-44e2-bec5-37e2edb07b3a")
 	)
 	(junction
 		(at 92.71 104.14)
@@ -3335,16 +3335,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bcb9e05-6260-43d8-9744-aaf8ed6d750b")
-	)
-	(wire
-		(pts
 			(xy 39.37 132.08) (xy 39.37 134.62)
 		)
 		(stroke
@@ -3392,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "737a0d7b-8157-4653-afc8-3708177bc0d9")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d8a874-7283-4887-babe-1cf1108105cb")
 	)
 	(wire
 		(pts
@@ -3505,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 124.46 101.6)
+			(xy 118.11 101.6) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3695,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 88.9) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfde5c0-90b1-4038-b8b9-d7a317032f8b")
+	)
+	(wire
+		(pts
 			(xy 54.61 104.14) (xy 57.15 104.14)
 		)
 		(stroke
@@ -3825,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 167.64 101.6)
+			(xy 184.15 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5706,6 +5716,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 118.11 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d50002-b070-484c-9364-b4985261190f")
+		(property "Reference" "R37"
+			(at 120.65 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 120.65 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 116.332 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113f3100-2b9f-4798-b561-41fe6cadad83")
+		)
+		(pin "2"
+			(uuid "54f5c0e5-4fe6-4560-92b8-4bbbbf8abbc4")
+		)
+		(instances
+			(project ""
+				(path "/1ee3bb19-9ed0-41e9-a9ff-1e5d7db780de"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 226.06 156.21 0)
 		(unit 1)
@@ -6696,7 +6776,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 93.98)
+		(at 129.54 93.98)
 		(size 43.18 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6712,7 +6792,7 @@
 		)
 		(uuid "c5f58894-643c-4a4e-b63d-34b9424dc44e")
 		(property "Sheetname" "MP2759 Buck"
-			(at 124.46 93.2684 0)
+			(at 129.54 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6801,7 @@
 			)
 		)
 		(property "Sheetfile" "MP2759.kicad_sch"
-			(at 124.46 121.2346 0)
+			(at 129.54 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6810,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 124.46 101.6 180)
+			(at 129.54 101.6 180)
 			(uuid "373d853c-af8c-4516-835b-b081f4cd8120")
 			(effects
 				(font
@@ -6740,7 +6820,7 @@
 			)
 		)
 		(pin "BATT+" output
-			(at 167.64 101.6 0)
+			(at 172.72 101.6 0)
 			(uuid "803a1f7d-ebcc-4ff1-ac22-520295351b78")
 			(effects
 				(font

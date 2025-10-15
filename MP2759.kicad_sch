@@ -2197,9 +2197,9 @@
 		)
 		(uuid "c25d37f8-4cd8-4fe1-a9f4-02e0a0b94b5b")
 	)
-	(text "12V UVLO\nCurrent limiting <18V"
+	(text "12V UVLO\nCurrent limiting <18V\n\nNote: Battery will not \nfully charge below 15V"
 		(exclude_from_sim no)
-		(at 96.012 108.966 0)
+		(at 96.52 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
