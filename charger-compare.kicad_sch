@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "3S LiPo Charger Test Board")
+		(date "2025-10-16")
 		(rev "1.0")
 		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
 	)

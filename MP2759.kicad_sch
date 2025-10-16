@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MP2759 Buck Charger")
+		(date "2025-10-16")
 		(rev "1.0")
 		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
 		(comment 2 "15-32V Input 3A max, reduced charge current below 18V")

@@ -9,6 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "3S LiPo Charger Test Board")
+		(date "2025-10-16")
 	)
 	(layers
 		(0 "F.Cu" signal)

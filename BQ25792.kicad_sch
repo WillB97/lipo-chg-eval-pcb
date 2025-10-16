@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BQ25792 Buck-Boost Charger")
+		(date "2025-10-16")
 		(rev "1.0")
 		(comment 1 "Through-hole connectors not to be installed as part of PCBA")
 		(comment 2 "5-22V input 5A max, 1A max without MCU control")
