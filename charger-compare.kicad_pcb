@@ -27835,7 +27835,7 @@
 		(path "/1512c674-09e8-4078-8d5c-83b5e449c512/1efa2118-399d-4c53-b67a-328bda79f368")
 		(sheetname "/I2C Ctrl/")
 		(sheetfile "I2C_ctrl.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.905 -1.27)
 			(end -1.905 -0.635)
