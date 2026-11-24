@@ -78,15 +78,15 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|60795000|63535000|f20f5080-843d-4fc3-8142-08f01ddc4a95|6249a792-5d85-489e-9966-309795e0f0db",
-          ""
-        ],
-        [
           "clearance|60795000|64735000|1ea60364-e147-40d2-98fc-44895930bb16|6249a792-5d85-489e-9966-309795e0f0db",
           ""
         ],
         [
-          "clearance|61070000|63535000|996e6b1c-017a-4822-a1b8-fdc26e6e1656|6249a792-5d85-489e-9966-309795e0f0db",
+          "clearance|60920000|63635000|6249a792-5d85-489e-9966-309795e0f0db|f20f5080-843d-4fc3-8142-08f01ddc4a95",
+          ""
+        ],
+        [
+          "clearance|61070000|63635000|6249a792-5d85-489e-9966-309795e0f0db|996e6b1c-017a-4822-a1b8-fdc26e6e1656",
           ""
         ],
         [
@@ -94,11 +94,11 @@
           ""
         ],
         [
-          "clearance|61470000|63535000|a375340e-1fe0-488e-8ea0-8603ecc79c63|6249a792-5d85-489e-9966-309795e0f0db",
+          "clearance|61470000|63635000|6249a792-5d85-489e-9966-309795e0f0db|a375340e-1fe0-488e-8ea0-8603ecc79c63",
           ""
         ],
         [
-          "clearance|61470000|64735000|8d7d829f-0b18-4758-b355-66efa28180d6|6249a792-5d85-489e-9966-309795e0f0db",
+          "clearance|61470000|64635000|6249a792-5d85-489e-9966-309795e0f0db|8d7d829f-0b18-4758-b355-66efa28180d6",
           ""
         ],
         [
@@ -114,15 +114,47 @@
           ""
         ],
         [
-          "clearance|62270000|64735000|0f43aefa-46ee-4129-9092-14f1937498aa|6249a792-5d85-489e-9966-309795e0f0db",
+          "clearance|62395000|64735000|0f43aefa-46ee-4129-9092-14f1937498aa|6249a792-5d85-489e-9966-309795e0f0db",
           ""
         ],
         [
-          "silk_edge_clearance|107000000|58140000|d82c39b7-4ca0-454f-bb9a-bc59c0c5cfb0|347d4f6e-1034-43f7-ab5f-7bba222351af",
+          "hole_clearance|56690000|61085000|0243e2df-289f-4dcc-b458-5152d1fbb636|da06f3db-677e-4089-a6a9-13134a2b93a7",
           ""
         ],
         [
-          "silk_edge_clearance|107000000|73860000|d82c39b7-4ca0-454f-bb9a-bc59c0c5cfb0|d6838ef2-c5d4-4264-9ad5-71528e1e071a",
+          "hole_clearance|56690000|61085000|b49da32b-aea7-4812-a840-d8defdb9e45c|da06f3db-677e-4089-a6a9-13134a2b93a7",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|61585000|6f4b971e-c16e-4ee1-8182-18dc3b5450fe|da06f3db-677e-4089-a6a9-13134a2b93a7",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|61585000|a7c67acd-6aa1-4aa1-ace0-3c06cd44515e|da06f3db-677e-4089-a6a9-13134a2b93a7",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|66685000|41802b3c-acfe-46ee-ad4a-ec91f87d6833|640c969a-a305-4eeb-a024-cc1fb8e0fcaa",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|66685000|6469eeb4-2c21-4b29-b064-e7c7b9b3889c|640c969a-a305-4eeb-a024-cc1fb8e0fcaa",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|67185000|26b832e6-f3d4-4d76-9d8b-3b8d842f544b|640c969a-a305-4eeb-a024-cc1fb8e0fcaa",
+          ""
+        ],
+        [
+          "hole_clearance|56690000|67185000|94ef44d6-6417-4600-b644-5951e7d5ac5d|640c969a-a305-4eeb-a024-cc1fb8e0fcaa",
+          ""
+        ],
+        [
+          "silk_edge_clearance|113000000|58140000|d82c39b7-4ca0-454f-bb9a-bc59c0c5cfb0|347d4f6e-1034-43f7-ab5f-7bba222351af",
+          ""
+        ],
+        [
+          "silk_edge_clearance|113000000|73860000|d82c39b7-4ca0-454f-bb9a-bc59c0c5cfb0|d6838ef2-c5d4-4264-9ad5-71528e1e071a",
           ""
         ],
         [
@@ -131,22 +163,6 @@
         ],
         [
           "silk_edge_clearance|50000000|68605000|fc89707b-c3e8-439c-bc28-b5f931461df7|8f96b5cf-963a-48fb-9e0f-656ded24aa63",
-          ""
-        ],
-        [
-          "solder_mask_bridge|101369942|67955083|6d2359a3-7545-45f1-ae80-d63a1bab1d74|163a07f5-93ff-45e0-bfe0-98bb8a9025c6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|101370073|66500005|2a28acc6-59c4-46ae-9e07-19f98a1ec710|163a07f5-93ff-45e0-bfe0-98bb8a9025c6",
-          ""
-        ],
-        [
-          "starved_thermal|56540000|68455000|c007ea56-c06a-4c86-af58-ebd175183b47|e9618e54-c472-48cb-a4b5-eda71a486df9|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|61590000|56930000|c007ea56-c06a-4c86-af58-ebd175183b47|011a20b1-1d22-4b9d-9ccd-15ec6132e574|F.Cu",
           ""
         ],
         [
@@ -359,7 +375,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -590,6 +606,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -859,16 +876,16 @@
       {
         "filename": "charger-compare.kicad_sch",
         "name": "charger-compare",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1ee3bb19-9ed0-41e9-a9ff-1e5d7db780de"
       }
     ],
-    "used_designators": "J4",
+    "used_designators": "#PWR39,C8,J4,Q3",
     "variants": []
   },
   "sheets": [
     [
       "1ee3bb19-9ed0-41e9-a9ff-1e5d7db780de",
-      "Root"
+      "charger-compare"
     ],
     [
       "c5f58894-643c-4a4e-b63d-34b9424dc44e",
